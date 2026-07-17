@@ -1,0 +1,4 @@
+interface:
+  display_name: "图片水印 / Image Watermark"
+  short_description: "本地为证件、合同等图片添加用途声明文字水印，全程离线处理"
+  default_prompt: "Use $image-watermark to add a local text watermark to my images."

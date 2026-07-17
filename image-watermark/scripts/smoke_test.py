@@ -91,7 +91,7 @@ def create_sample(path: Path, image_format: str) -> None:
 def main() -> int:
     script_path = Path(__file__).with_name("apply_watermark.py")
     verify_plugin_geometry(script_path)
-    with tempfile.TemporaryDirectory(prefix="add-purpose-watermark-") as temp_dir:
+    with tempfile.TemporaryDirectory(prefix="image-watermark-") as temp_dir:
         temp_path = Path(temp_dir)
         input_path = temp_path / "sample.jpg"
         png_path = temp_path / "sample-extra.png"

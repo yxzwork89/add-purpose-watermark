@@ -2,7 +2,7 @@
 
 ## 一句话介绍
 
-用途水印是一个本地运行的 Codex Skill，可为证件、合同和其他文档图片批量添加“仅供某用途使用”的平铺文字水印。
+图片水印是一个本地运行的 Codex Skill，可为证件、合同和其他文档图片批量添加“仅供某用途使用”的平铺文字水印。
 
 ## GitHub Description
 
@@ -28,7 +28,7 @@ Offline Codex Skill for adding tiled purpose watermarks to document images.
 ## 小红书正文
 
 ```text
-做了一个“用途水印 / Purpose Watermark”Codex Skill。
+做了一个“图片水印 / Image Watermark”Codex Skill。
 
 它可以给身份证、证件照、营业执照、合同等图片添加“仅供某用途使用”的平铺文字水印。图片在本机处理，不需要上传到在线水印网站，处理后生成新文件，原图不会被覆盖。
 

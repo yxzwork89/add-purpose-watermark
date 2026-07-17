@@ -4,7 +4,7 @@ Use this reference when drafting GitHub README sections, Xiaohongshu posts, priv
 
 ## Positioning
 
-用途水印 / Purpose Watermark helps users add purpose text watermarks to local document images before submitting them to banks, platforms, HR teams, rental filing systems, exam reviews, or similar workflows.
+图片水印 / Image Watermark helps users add purpose text watermarks to local document images before submitting them to banks, platforms, HR teams, rental filing systems, exam reviews, or similar workflows.
 
 Emphasize:
 
@@ -25,7 +25,7 @@ Do not claim:
 ## GitHub README Starter
 
 ````markdown
-# 用途水印 / Purpose Watermark
+# 图片水印 / Image Watermark
 
 本地给身份证、证件照、营业执照、合同、户口本、证书等图片添加用途文字水印。适合在提交敏感材料前标注“仅供某用途使用”，降低裸传图片的风险。
 
@@ -41,7 +41,7 @@ Do not claim:
 ## Example
 
 ```bash
-python add-purpose-watermark/scripts/apply_watermark.py \
+python image-watermark/scripts/apply_watermark.py \
   --input "/path/to/id-card.jpg" \
   --text "仅限XX平台实名认证使用"
 ```
@@ -62,7 +62,7 @@ Title ideas:
 Body:
 
 ```text
-做了一个“用途水印”Skill：给身份证、证件照、营业执照、合同等图片添加用途水印，比如“仅限XX平台实名认证使用”。
+做了一个“图片水印”Skill：给身份证、证件照、营业执照、合同等图片添加用途水印，比如“仅限XX平台实名认证使用”。
 
 核心是本地处理：图片不需要上传到服务器，处理后会输出一张新的带水印图片，原图不会被覆盖。默认样式是灰色半透明斜向平铺，也可以通过普通或高级自定义调整颜色、透明度、字号、角度和间距。
 

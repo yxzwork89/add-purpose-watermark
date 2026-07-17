@@ -1,9 +1,9 @@
 ---
-name: add-purpose-watermark
+name: image-watermark
 description: Add local text watermarks to sensitive document images such as ID cards, passport photos, business licenses, contracts, household registration pages, certificates, and other JPG/PNG/WebP files. Use when the user asks to add a purpose watermark like "仅供XX平台实名认证使用", batch-process local images or directories, customize watermark appearance, suggest common purpose watermark text, or draft GitHub/Xiaohongshu publishing copy. Apply immediately with defaults when the user only supplies images and text. For "自定义水印", "水印+自定义", or equivalent basic customization, collect text, color, opacity, and size while keeping angle and spacing at defaults. Only for "高级自定义", "高级设置", or explicit custom angle/spacing requests, additionally collect angle, horizontal spacing, and vertical spacing. Treat attributes already stated in the user's prompt as confirmed, ask only for missing applicable attributes, and request one final approval after showing the complete summary. Preserve source format and available quality settings automatically.
 ---
 
-# Add Purpose Watermark
+# Image Watermark
 
 ## Overview
 

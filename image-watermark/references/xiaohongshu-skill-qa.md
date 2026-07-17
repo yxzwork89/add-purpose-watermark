@@ -4,7 +4,7 @@ The source requirements mention a Xiaohongshu Skill Q&A document, but its online
 
 ## Current Generic Publication Notes
 
-- Skill name: `用途水印`
+- Skill name: `图片水印`
 - One-line intro: `给证件照、身份证、营业执照、合同等图片添加用途水印，本地处理并输出带水印图片。`
 - Trigger examples:
   - `给这张身份证加“仅供XX平台实名认证使用”水印`
