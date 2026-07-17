@@ -1,0 +1,4 @@
+interface:
+  display_name: "用途水印 / Purpose Watermark"
+  short_description: "本地为证件、合同等图片添加用途声明文字水印，全程离线处理"
+  default_prompt: "Use $add-purpose-watermark to add a local purpose watermark to my document images."

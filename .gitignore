@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+watermarked/
+*_watermark.jpg
+*_watermark.jpeg
+*_watermark.png
+*_watermark.webp
+*_watermark.bmp
+*_watermark.tif
+*_watermark.tiff
